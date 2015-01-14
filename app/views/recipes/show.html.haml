@@ -1,7 +1,18 @@
-= image_tag @recipe.image.url(:medium, class: "image-recipe")
-%h1= @recipe.title
-%p= @recipe.description
-
-= link_to "Back", root_path, class: "btn btn-default"
-= link_to "Edit", edit_recipe_path, class: "btn btn-default"
-= link_to "Delete", recipe_path, method: :delete, data: {confirm: "Are you sure?" }, class: "btn btn-default"
+%div
+.background
+	.row
+	.col-md-7
+		
+		%h1= @recipe.title
+		%h4= @recipe.description
+		%p{:style => "text-align:justify"}= @recipe.preparation
+	.row
+		.col-md-5
+			.recipe
+			.image_wrapper
+				= image_tag @recipe.image.url(:medium, class: "image-recipe", :style => "padding-right: 15px;")
+			%br
+			= link_to "Back", root_path, class: "btn btn-default"
+			= link_to "Edit", edit_recipe_path, class: "btn btn-default"
+			= link_to "Delete", recipe_path, method: :delete, data: {confirm: "Are you sure?" }, class: "btn btn-default"
+			%br

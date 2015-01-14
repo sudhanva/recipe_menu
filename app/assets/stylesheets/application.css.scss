@@ -57,6 +57,12 @@ background: url('/assets/bg.jpg');
 	}
 }
 
+.background
+{
+	background: white;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
 .recipe {
 	background: white;
 	border-radius: 5px;
@@ -74,7 +80,7 @@ background: url('/assets/bg.jpg');
 	  -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
 		&:hover {
-			transform: scale(1.075);
+			transform: scale(1.175);
 		}
 	}
 	h2 {
