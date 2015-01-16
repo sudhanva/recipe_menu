@@ -65,7 +65,7 @@ background: url('/assets/bg.jpg');
 }
 .recipe {
 	background: white;
-	border-radius: 5px;
+	border-radius: 15px;
 	margin-bottom: 40px;
 	@include box-shadow;
 	.image_wrapper {
@@ -109,7 +109,7 @@ background: url('/assets/bg.jpg');
 
 .recipe_image {
 	max-width: 100%;
-	border-radius: 5px;
+	border-radius: 15px;
 	@include box-shadow;
 }
 

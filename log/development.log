@@ -24173,3 +24173,1931 @@ Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-13 14:34:13 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-13 14:34:13 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:32:10 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (570.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (81.3ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (189.4ms)
+Completed 200 OK in 839ms (Views: 678.0ms | ActiveRecord: 100.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:32:17 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:32:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:17 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:17 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:18 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:32:18 +0530
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+Processing by RecipesController#new as HTML
+  Rendered recipes/_form.html.haml (225.6ms)
+  Rendered recipes/new.html.haml within layouts/application (265.3ms)
+Completed 200 OK in 397ms (Views: 396.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:32:23 +0530
+
+
+Started POST "/recipes" for 127.0.0.1 at 2015-01-14 14:45:55 +0530
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zt5Redbie6gF8cwZDyxwOvIPPFHAs8HPE2iyVxdfxbI=", "recipe"=>{"title"=>"Bisibelebhath", "description"=>"A wholesome traditional meal of lentils, rice and vegetables and a signature delicacy from Karnataka.", "preparation"=>"bisi bele bath is so popular that you get it so easily in the south indian restaurants in bangalore. whilst living in bangalore, whenever we would visit MTR chain of restaurants, without fail, we would always order bisi bele bath. we had to, as even thoug", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000044b00d8 @tempfile=#<Tempfile:/tmp/RackMultipart20150114-4636-rgzch9>, @original_filename="bisi-bele-baath.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"bisi-bele-baath.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Recipe"}
+Command :: file -b --mime '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-1ujegr4.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys.jpg[0]'
+Command :: convert '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys.jpg[0]' -auto-orient -resize "400x400" '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys20150114-4636-1926f2k'
+Command :: file -b --mime '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys20150114-4636-1926f2k'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys.jpg[0]'
+Command :: convert '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys.jpg[0]' -auto-orient -resize "800x800>" '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys20150114-4636-me65tq'
+Command :: file -b --mime '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-maq0ys20150114-4636-me65tq'
+  [1m[36m (109.8ms)[0m  [1mBEGIN[0m
+Command :: file -b --mime '/tmp/b015777ad9a970898b5a6f86a4931fed20150114-4636-nptuuq.jpg'
+  [1m[35mSQL (301.3ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `preparation`, `title`, `updated_at`) VALUES ('2015-01-14 09:15:59', 'A wholesome traditional meal of lentils, rice and vegetables and a signature delicacy from Karnataka.', 'image/jpeg', 'bisi-bele-baath.jpg', 77091, '2015-01-14 09:15:56', 'bisi bele bath is so popular that you get it so easily in the south indian restaurants in bangalore. whilst living in bangalore, whenever we would visit MTR chain of restaurants, without fail, we would always order bisi bele bath. we had to, as even thoug', 'Bisibelebhath', '2015-01-14 09:15:59')
+  [1m[36m (117.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/recipes
+Completed 302 Found in 4143ms (ActiveRecord: 528.9ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (75.0ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (86.3ms)
+Completed 200 OK in 379ms (Views: 302.5ms | ActiveRecord: 75.0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:00 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:46:01 +0530
+
+
+Started GET "/recipes" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.1ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (35.5ms)
+Completed 200 OK in 205ms (Views: 202.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:46:07 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (1.8ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 92ms (Views: 88.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:49:57 +0530
+
+
+Started GET "/recipes" for 127.0.0.1 at 2015-01-14 14:51:50 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (278.3ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (382.4ms)
+Completed 200 OK in 800ms (Views: 449.2ms | ActiveRecord: 278.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:51:51 +0530
+
+
+Started GET "/recipes/9" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mRecipe Load (51.9ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 9 LIMIT 1
+  Rendered recipes/show.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 177ms (Views: 117.6ms | ActiveRecord: 51.9ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:11 +0530
+
+
+Started GET "/recipes/9" for 127.0.0.1 at 2015-01-14 14:52:56 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mRecipe Load (1.7ms)[0m  [1mSELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 9 LIMIT 1[0m
+  Rendered recipes/show.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 139ms (Views: 134.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:52:57 +0530
+
+
+Started GET "/recipes/9" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mRecipe Load (3.1ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 9 LIMIT 1
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 107ms (Views: 102.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:53:26 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:30 +0530
+
+
+Started GET "/recipes/8" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 8 LIMIT 1
+  Rendered recipes/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:32 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:53:35 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.8ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (24.8ms)
+Completed 200 OK in 144ms (Views: 138.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:35 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:36 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:36 +0530
+
+
+Started GET "/recipes/7" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mRecipe Load (2.3ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 7 LIMIT 1
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 93ms (Views: 88.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:37 +0530
+
+
+Started GET "/recipes/7" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 7 LIMIT 1[0m
+  Rendered recipes/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 113ms (Views: 110.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:53:39 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (3.8ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (37.6ms)
+Completed 200 OK in 119ms (Views: 114.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:53:42 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:57:15 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (3.9ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (26.8ms)
+Completed 200 OK in 183ms (Views: 176.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:57:15 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:57:15 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (384.1ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (428.2ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:57:16 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (5.8ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 153ms (Views: 146.4ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.8ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:57:43 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 14:59:55 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.7ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (27.0ms)
+Completed 200 OK in 154ms (Views: 150.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.6ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.8ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 14:59:56 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:00:09 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 103ms
+
+SyntaxError (/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:12: syntax error, unexpected '{', expecting ')'
+..._false((image_tag  "logo.png" {:alt=>"Some Text", :height=>7...
+...                               ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:12: syntax error, unexpected ',', expecting ')'
+... "logo.png" {:alt=>"Some Text", :height=>75, :width=>75, :sr...
+...                               ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:12: syntax error, unexpected '}', expecting ')'
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:16: syntax error, unexpected '}', expecting ')'
+));}</li>\n        <li>#{_hamlout...
+    ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:17: unknown regexp option - l
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:17: syntax error, unexpected $undefined
+));}</li>\n      </ul>\n    </div>\n  <...
+          ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:17: unknown regexp options - dv
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:17: syntax error, unexpected $undefined
+...</li>\n      </ul>\n    </div>\n  </nav>\n  <div class='cont...
+...                               ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:21: unknown regexp options - dv
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:21: syntax error, unexpected $undefined
+));}\n  </div>\n</body>\n", -2, false);::Ham...
+               ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:21: unterminated regexp meets end of file
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:21: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/application.html.haml:12: syntax error, unexpected '{', expecting ')'
+  app/views/layouts/application.html.haml:12: syntax error, unexpected ',', expecting ')'
+  app/views/layouts/application.html.haml:12: syntax error, unexpected '}', expecting ')'
+  app/views/layouts/application.html.haml:16: syntax error, unexpected '}', expecting ')'
+  app/views/layouts/application.html.haml:17: unknown regexp option - l
+  app/views/layouts/application.html.haml:17: syntax error, unexpected $undefined
+  app/views/layouts/application.html.haml:17: unknown regexp options - dv
+  app/views/layouts/application.html.haml:17: syntax error, unexpected $undefined
+  app/views/layouts/application.html.haml:21: unknown regexp options - dv
+  app/views/layouts/application.html.haml:21: syntax error, unexpected $undefined
+  app/views/layouts/application.html.haml:21: unterminated regexp meets end of file
+  app/views/layouts/application.html.haml:21: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:00:21 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (4.3ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (20.1ms)
+Completed 500 Internal Server Error in 393ms
+
+SyntaxError (/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:12: syntax error, unexpected =>, expecting '}'
+...e_true_false((image_tag {:alt=>"Some Text", :height=>75, :wi...
+...                               ^
+/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:12: syntax error, unexpected ',', expecting '}'
+...((image_tag {:alt=>"Some Text", :height=>75, :width=>75, :sr...
+...                               ^):
+  app/views/layouts/application.html.haml:12: syntax error, unexpected =>, expecting '}'
+  app/views/layouts/application.html.haml:12: syntax error, unexpected ',', expecting '}'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (39.5ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (9.3ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (46.0ms)
+Completed 200 OK in 165ms (Views: 153.8ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.6ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.6ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.9ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:00:31 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (4.3ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (28.5ms)
+Completed 200 OK in 154ms (Views: 148.3ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:00:52 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:00:54 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.5ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (31.0ms)
+Completed 200 OK in 165ms (Views: 162.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:54 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.9ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.1ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:00:55 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (2.5ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (24.8ms)
+Completed 200 OK in 139ms (Views: 136.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:00:57 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.1ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:00:58 +0530
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:01:15 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:01:15 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:02:23 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.7ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 183ms (Views: 181.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:02:24 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:02:44 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.1ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (70.5ms)
+Completed 500 Internal Server Error in 248ms
+
+ActionView::Template::Error (undefined local variable or method `logo' for #<#<Class:0x000000023663a0>:0x000000046cd348>):
+     9: 	%nav.navbar.navbar-default
+    10: 		.container
+    11: 			.navbar-brand= "Love to eat"
+    12: 			%img{:src=>logo.png, :height=>75, :width=>75}
+    13: 			%ul.nav.navbar-nav.navbar-right
+    14: 				%li= link_to 'Add Recipe', new_recipe_path
+    15: 				%li= link_to 'Sign Out', root_path
+  app/views/layouts/application.html.haml:12:in `_app_views_layouts_application_html_haml__4163571213228390713_37101180'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:03:11 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.6ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (28.6ms)
+Completed 200 OK in 159ms (Views: 156.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:03:12 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:03:53 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (3.7ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 167ms (Views: 162.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (18.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.9ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:03:54 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:05:21 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (3.4ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 133ms
+
+ActionView::Template::Error (Asset names passed to helpers should not include the "/assets/" prefix. Instead of "/assets/logo.png", use "logo.png"):
+     9: 	%nav.navbar.navbar-default
+    10: 		.container
+    11: 			.navbar-brand= "Love to eat"
+    12: 			=image_tag asset_path('logo.png'), :size => '153x110'
+    13: 			%ul.nav.navbar-nav.navbar-right
+    14: 				%li= link_to 'Add Recipe', new_recipe_path
+    15: 				%li= link_to 'Sign Out', root_path
+  app/views/layouts/application.html.haml:12:in `_app_views_layouts_application_html_haml__4163571213228390713_36759580'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (3.6ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 186ms (Views: 180.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:06:36 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:06:37 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (15.5ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (34.3ms)
+Completed 200 OK in 165ms (Views: 148.8ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:06:49 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:07:02 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.8ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (48.6ms)
+Completed 200 OK in 209ms (Views: 205.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:07:03 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:07:20 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (4.0ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 128ms (Views: 122.9ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:07:21 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (49.9ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (60.7ms)
+Completed 200 OK in 187ms (Views: 135.5ms | ActiveRecord: 49.9ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:08:51 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (1.5ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (18.4ms)
+Completed 200 OK in 153ms (Views: 148.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:09:18 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (8.3ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (25.5ms)
+Completed 200 OK in 194ms (Views: 185.3ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:09:36 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:09:49 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (2.9ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (45.6ms)
+Completed 500 Internal Server Error in 97ms
+
+SyntaxError (/home/sudhanva/rails/Ruby_week/recipe_menu/app/views/layouts/application.html.haml:21: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/layouts/application.html.haml:21: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:09:55 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (4.6ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 199ms (Views: 190.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:09:56 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (20.2ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (36.2ms)
+Completed 200 OK in 155ms (Views: 133.0ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:14:47 +0530
+
+
+Started GET "/recipes/9" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 9 LIMIT 1[0m
+  Rendered recipes/show.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:15:06 +0530
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:15:11 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:15:11 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-14 15:15:11 +0530
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 208ms (Views: 197.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:15:11 +0530
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-14 15:15:12 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 10:05:23 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (130.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.4ms)[0m  SELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC
+  Rendered recipes/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 2379ms (Views: 2333.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-16 10:05:27 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 10:05:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 10:05:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+
+Started GET "/system/recipes/images/000/000/003/medium/navratan-korma.jpg?1421240706" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/system/recipes/images/000/000/003/medium/navratan-korma.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (60.6ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (191.8ms)
+
+
+Started GET "/system/recipes/images/000/000/002/medium/idly-vada.jpg?1421237460" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/system/recipes/images/000/000/002/medium/idly-vada.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.7ms)
+
+
+Started GET "/system/recipes/images/000/000/001/medium/vada.jpg?1421236454" for 127.0.0.1 at 2015-01-16 10:05:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/system/recipes/images/000/000/001/medium/vada.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/sudhanva/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/sudhanva/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.2ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-16 10:05:29 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 10:06:29 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 133ms (Views: 93.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-16 10:06:29 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 10:06:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 10:06:29 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 10:06:29 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-16 10:06:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-16 10:06:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 10:06:30 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-16 10:06:30 +0530
+
+
+Started GET "/recipes/1" for 127.0.0.1 at 2015-01-16 10:06:44 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRecipe Load (37.5ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 1 LIMIT 1
+  Rendered recipes/show.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 155ms (Views: 104.9ms | ActiveRecord: 37.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 10:06:54 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (4.0ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 115ms (Views: 110.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/recipes/3" for 127.0.0.1 at 2015-01-16 10:06:56 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRecipe Load (0.8ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 3 LIMIT 1
+  Rendered recipes/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 100ms (Views: 90.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 10:07:00 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (4.4ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 106ms (Views: 100.5ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2015-01-16 10:07:01 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRecipe Load (1.0ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 2 LIMIT 1
+  Rendered recipes/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 112ms (Views: 101.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 10:07:29 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (13.9ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 113ms (Views: 98.3ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/recipes/3" for 127.0.0.1 at 2015-01-16 10:07:32 +0530
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRecipe Load (0.8ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 3 LIMIT 1
+  Rendered recipes/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 100ms (Views: 90.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes/3/edit" for 127.0.0.1 at 2015-01-16 10:07:34 +0530
+Processing by RecipesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipe Load (3.0ms)[0m  [1mSELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 3 LIMIT 1[0m
+  Rendered recipes/_form.html.erb (312.9ms)
+  Rendered recipes/edit.html.erb within layouts/application (317.5ms)
+Completed 200 OK in 407ms (Views: 401.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-16 10:07:45 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 10:07:45 +0530
+
+
+Started GET "/recipes/3/edit" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+Processing by RecipesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT  `recipes`.* FROM `recipes`  WHERE `recipes`.`id` = 3 LIMIT 1
+  Rendered recipes/_form.html.erb (52.2ms)
+  Rendered recipes/edit.html.erb within layouts/application (63.2ms)
+Completed 200 OK in 156ms (Views: 151.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2015-01-16 10:10:03 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 10:10:05 +0530
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (4.0ms)[0m  [1mSELECT `recipes`.* FROM `recipes`   ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 114ms (Views: 108.9ms | ActiveRecord: 4.0ms)

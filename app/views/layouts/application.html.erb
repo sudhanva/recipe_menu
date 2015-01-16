@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RecipeMenu</title>
+  <title>Receipe Menu Home</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-brand">
+        <%= "Love to eat" %>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <%= link_to 'Add Recipe', new_recipe_path %>
+        </li>
+        <li>
+          <%= link_to 'Sign Out', root_path %>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <% flash.each do |name,msg| %>
+      <%= content_tag :div, msg, class: "alert" %>
+    <% end %>
+    <%= yield %>
+  </div>
+<div id="footer">
+  <div class="container">
+    <p class="text-muted" style="color:white">Created by <a style="color:white;font: italic;" href="http://github.com/sudhanva" target="_blank">Sudhanva Shivangere</a></p>
+  </div>
+</div>
 </body>
 </html>
+
+
+
+
